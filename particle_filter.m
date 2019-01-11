@@ -18,8 +18,8 @@ y_sigma = 10;    % Variance of particles' y-coordinate
 threshold = 0.5; % A probability threshold for skipping certain frame.
 
 % Directory of input frames.
-frames_dir = '/Users/jingxiaoma/Documents/MATLAB/test/';
-first_frame = '0191.jpg';
+frames_dir = '';    % Your directory of frames here
+first_frame = '0191.jpg';   % Filename of first frame
 % Directory to save results
 result_dir = strcat(frames_dir, 'result/');
 
